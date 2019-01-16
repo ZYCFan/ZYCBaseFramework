@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 #TODO: Add long description of the pod here.
 #                       DESC
 
-  s.homepage         = 'https://github.com/ZYCFan/ZYCBaseFramework'
+  s.homepage         = 'https://blog.csdn.net/chaoaifan'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZYCFan' => '1543558411@qq.com' }
