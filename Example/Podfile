@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZYCBaseFramework_Example' do
+  pod 'ZYCBaseFramework', :path => '../'
+
+  target 'ZYCBaseFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
