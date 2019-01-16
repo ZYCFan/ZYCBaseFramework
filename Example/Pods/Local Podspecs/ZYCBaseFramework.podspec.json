@@ -17,5 +17,46 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYCBaseFramework/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "NSDate",
+      "source_files": "ZYCBaseFramework/NSDate/*.{h,m}"
+    },
+    {
+      "name": "NSDictionary",
+      "source_files": "ZYCBaseFramework/NSDictionary/*.{h,m}"
+    },
+    {
+      "name": "NSObject",
+      "source_files": "ZYCBaseFramework/NSObject/*.{h,m}"
+    },
+    {
+      "name": "NSString",
+      "source_files": "ZYCBaseFramework/NSString/*.{h,m}"
+    },
+    {
+      "name": "UIButton",
+      "source_files": "ZYCBaseFramework/UIButton/*.{h,m}"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "ZYCBaseFramework/UIImage/*.{h,m}"
+    },
+    {
+      "name": "UINavigationController",
+      "source_files": "ZYCBaseFramework/UINavigationController/*.{h,m}"
+    },
+    {
+      "name": "UITabBarController",
+      "source_files": "ZYCBaseFramework/UITabBarController/*.{h,m}"
+    },
+    {
+      "name": "UIView",
+      "source_files": "ZYCBaseFramework/UIView/*.{h,m}"
+    },
+    {
+      "name": "ZYCMacro",
+      "source_files": "ZYCBaseFramework/ZYCMacro/**/*.{h,m}"
+    }
+  ]
 }

@@ -1,5 +1,25 @@
 PODS:
-  - ZYCBaseFramework (0.1.0)
+  - ZYCBaseFramework (0.1.0):
+    - ZYCBaseFramework/NSDate (= 0.1.0)
+    - ZYCBaseFramework/NSDictionary (= 0.1.0)
+    - ZYCBaseFramework/NSObject (= 0.1.0)
+    - ZYCBaseFramework/NSString (= 0.1.0)
+    - ZYCBaseFramework/UIButton (= 0.1.0)
+    - ZYCBaseFramework/UIImage (= 0.1.0)
+    - ZYCBaseFramework/UINavigationController (= 0.1.0)
+    - ZYCBaseFramework/UITabBarController (= 0.1.0)
+    - ZYCBaseFramework/UIView (= 0.1.0)
+    - ZYCBaseFramework/ZYCMacro (= 0.1.0)
+  - ZYCBaseFramework/NSDate (0.1.0)
+  - ZYCBaseFramework/NSDictionary (0.1.0)
+  - ZYCBaseFramework/NSObject (0.1.0)
+  - ZYCBaseFramework/NSString (0.1.0)
+  - ZYCBaseFramework/UIButton (0.1.0)
+  - ZYCBaseFramework/UIImage (0.1.0)
+  - ZYCBaseFramework/UINavigationController (0.1.0)
+  - ZYCBaseFramework/UITabBarController (0.1.0)
+  - ZYCBaseFramework/UIView (0.1.0)
+  - ZYCBaseFramework/ZYCMacro (0.1.0)
 
 DEPENDENCIES:
   - ZYCBaseFramework (from `../`)
@@ -9,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZYCBaseFramework: 53806aa49988e91bacfdd91600baf5d51f95137e
+  ZYCBaseFramework: 6dde5861fe66ddb6e565ce5ffaf416156bb1bbf8
 
 PODFILE CHECKSUM: 0488c44f2dc83904e2f9e8835ca4640c445b98d9
 
