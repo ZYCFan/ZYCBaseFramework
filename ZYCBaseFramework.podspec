@@ -31,45 +31,45 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.subspec 'NSDate' do |ss|
-    ss.source_files = 'ZYCBaseFramework/NSDate/**/*.{h,m}'
+    ss.source_files = 'ZYCBaseFramework/NSDate/**/*'
   end
 
-  s.subspec 'NSDictionary' do |ss|
-    ss.source_files = 'ZYCBaseFramework/NSDictionary/*.{h,m}'
-  end
+#  s.subspec 'NSDictionary' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/NSDictionary/*.{h,m}'
+#  end
+#
+#  s.subspec 'NSObject' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/NSObject/*.{h,m}'
+#  end
+#
+#  s.subspec 'NSString' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/NSString/*.{h,m}'
+#  end
+#
+#  s.subspec 'UIButton' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/UIButton/*.{h,m}'
+#  end
+#
+#  s.subspec 'UIImage' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/UIImage/*.{h,m}'
+#  end
+#
+#  s.subspec 'UINavigationController' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/UINavigationController/*.{h,m}'
+#  end
+#
+#  s.subspec 'UITabBarController' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/UITabBarController/*.{h,m}'
+#  end
+#
+#  s.subspec 'UIView' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/UIView/*.{h,m}'
+#  end
+#
+#  s.subspec 'ZYCMacro' do |ss|
+#    ss.source_files = 'ZYCBaseFramework/ZYCMacro/**/*.{h,m}'
+#  end
 
-  s.subspec 'NSObject' do |ss|
-    ss.source_files = 'ZYCBaseFramework/NSObject/*.{h,m}'
-  end
-
-  s.subspec 'NSString' do |ss|
-    ss.source_files = 'ZYCBaseFramework/NSString/*.{h,m}'
-  end
-
-  s.subspec 'UIButton' do |ss|
-    ss.source_files = 'ZYCBaseFramework/UIButton/*.{h,m}'
-  end
-
-  s.subspec 'UIImage' do |ss|
-    ss.source_files = 'ZYCBaseFramework/UIImage/*.{h,m}'
-  end
-
-  s.subspec 'UINavigationController' do |ss|
-    ss.source_files = 'ZYCBaseFramework/UINavigationController/*.{h,m}'
-  end
-
-  s.subspec 'UITabBarController' do |ss|
-    ss.source_files = 'ZYCBaseFramework/UITabBarController/*.{h,m}'
-  end
-
-  s.subspec 'UIView' do |ss|
-    ss.source_files = 'ZYCBaseFramework/UIView/*.{h,m}'
-  end
-
-  s.subspec 'ZYCMacro' do |ss|
-    ss.source_files = 'ZYCBaseFramework/ZYCMacro/**/*.{h,m}'
-  end
-  
   # s.resource_bundles = {
   #   'ZYCBaseFramework' => ['ZYCBaseFramework/Assets/*.png']
   # }
