@@ -1,9 +1,8 @@
 {
   "name": "ZYCBaseFramework",
   "version": "0.1.0",
-  "summary": "A short description of ZYCBaseFramework.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ZYCFan/ZYCBaseFramework",
+  "summary": "A Simple Architecture of Objective-c Project",
+  "homepage": "https://blog.csdn.net/chaoaifan",
   "license": {
     "type": "MIT",
     "file": "LICENSE"

@@ -9,15 +9,42 @@
 /* Begin PBXBuildFile section */
 		04E289D50A8A059A964D2DE3158F9A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		052AF0F4EEF127900155B9E295FE555F /* Pods-ZYCBaseFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B58539B38CBCB2B11524471E2644C67 /* Pods-ZYCBaseFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1FC759FD42C4D2A96C7D8C8C2F8FA5 /* UINavigationController+ZYCStatusBarStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 949A545071D36A46779F5CC2218AC651 /* UINavigationController+ZYCStatusBarStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB47C6CDC2CCBC0E474FD7CE647035E /* UIImage+ZYCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A399C3E7C77179EA1FD638A2DF86353E /* UIImage+ZYCColor.m */; };
+		14FB2D3758A6B079F0D04CF98F146512 /* UIButton+ZYCEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = E346BC374D7416B16DCF340D03E404D9 /* UIButton+ZYCEnlargeEdge.m */; };
 		1FC17C9BA3C50903855B47160B8CF012 /* Pods-ZYCBaseFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 924A3E77571D3FDFF52D18418EB2FE8D /* Pods-ZYCBaseFramework_Example-dummy.m */; };
+		214A7E61515E3629310634DFF8C3544E /* NSString+ZYCHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4EB557EF59149CE772E8C9879648A2 /* NSString+ZYCHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DD6122590D2AD7B78EC36BE2B99360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		34DBFE8D4A5F68A5AE29A39B28A09049 /* ZYCBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDF5E595A9E0DB6792EFCFB29F054E /* ZYCBaseFramework-dummy.m */; };
+		37A17F03D8F23AD6DFF3F4A48FFAFD21 /* UIView+ZYCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481EF796BDD0ED90E1AF1B3B0F78D97 /* UIView+ZYCExtension.m */; };
+		384E7C178B0DED78CF459CCCD51B10FA /* UITabBarController+ZYCRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77760D9FA4B8AFE9120EB370B27689BE /* UITabBarController+ZYCRotation.m */; };
 		38B0DEF6186636E7D403D2E613D581B9 /* Pods-ZYCBaseFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0003C92C52FCE2FCE5DA210FDBCF0 /* Pods-ZYCBaseFramework_Tests-dummy.m */; };
-		497F3F0619894E7CEFEE3DDD55886106 /* ZYCBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6F4584B7078309EB9C9C1B1899F2BF /* ZYCBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54F710080C67945FC1E0821A7A603E21 /* NSDate+ZYCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 911700EAFF7C6DB37164B44EEC567A77 /* NSDate+ZYCExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FF4EDF616D69AE119810712D7538E0F /* NSDate+ZYCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E656D373308C45378B4C4D02FE6AF84E /* NSDate+ZYCExtension.m */; };
+		3BAC3D2806F4DF6775A8F1C667B31C5F /* UITabBarController+ZYCRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 978C70119047CA794583D85049380C88 /* UITabBarController+ZYCRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529039895E356D6DE0953B88E795F178 /* UIView+ZYCFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C8E13A83398694C8DFC15CD2AC75C4 /* UIView+ZYCFoundation.m */; };
+		6883EF2DDA4E54211BB0FD7E7A3E75A1 /* NSString+ZYCHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F801D1B1F2B50D78D602DB3CA13EC /* NSString+ZYCHeight.m */; };
+		749FE7A69FF7988E73A526EBD2506BE6 /* NSString+ZYCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DDBFA8F418B306A9526F014BBCA105D /* NSString+ZYCExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75176C53DD862A6FC24C19D92E76782C /* NSDictionary+ZYCMutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA40D92AA56AE23937322D22FA6EE50A /* NSDictionary+ZYCMutableDeepCopy.m */; };
+		7D1EB88037C2B74E33D3525858364C2F /* UIImage+ZYCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF1E22DD85F9419D554DB3D617DE976 /* UIImage+ZYCColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		822D2524D4E789B5A19BEADF97C809E8 /* NSDate+ZYCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372CB7B30C8E9E3228337D19AC57BB2B /* NSDate+ZYCExtension.m */; };
+		83F59D2EE022DCC8E77BBE68E9C06313 /* UINavigationController+ZYCRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C78C8D8FCD83B941A0EA82A93C00 /* UINavigationController+ZYCRotation.m */; };
+		85E649C972EED1F1EB8FE080DD715FDF /* NSObject+ZYCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C210BA0545BD076AB3B17C9709E065FA /* NSObject+ZYCExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88FFBD1FB5666770339370A2A386F36F /* UIImage+ZYCGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CF1EEF8156AD2D0CBA24C355CA502C /* UIImage+ZYCGradientColor.m */; };
+		9C8D5F2A9A3337C25912653E947FD4A4 /* UIView+ZYCFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 402148A6B4111C5924546616C290CAA1 /* UIView+ZYCFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC3A37B3AFF88859156E2FA8EB8EEA04 /* Pods-ZYCBaseFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAD817FA319384AD9290DCF4250C103 /* Pods-ZYCBaseFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6F54E5DC01C6212A223C15841B189A /* UIImage+ZYCGradientColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A38630ABF3883DDCDEC5CE1604A2EA8 /* UIImage+ZYCGradientColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15C0A2E1DCCA1446CFABF69CEB32C17 /* UINavigationController+ZYCStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE55D9812BFACB29F9D6783C6F34EE3 /* UINavigationController+ZYCStatusBarStyle.m */; };
 		B1B236C5EA2D546F662CECD9A64D6FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		FDF9202A9C662BF1147D3EB08AAEEBCD /* ZYCBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 889E0FBCE09026B84F9035B0E3BCA57C /* ZYCBaseFramework-dummy.m */; };
+		B4430A628AF8CB92082880CB5D732728 /* ZYCGlobalMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = A0294A1586D8BF92A33CDA1981361583 /* ZYCGlobalMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEA5CA171F745EAB4B67F53701E9E5D /* ZYCWeakAndStrongDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F05A1CC4CEC257D79D78876D1DB1BF4 /* ZYCWeakAndStrongDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06A2FFDBD48C175F8CD5E45AFCD776F /* ZYCBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECEB762B55FD50817A6A4FD40BCD283 /* ZYCBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBAB9F57AA404BD70007306634AD07BF /* NSString+ZYCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B226B3F8B94449E139AD3B3F4B9912 /* NSString+ZYCExtension.m */; };
+		DEB5BCC0A93F28BFCF7487EA751AAD0C /* NSObject+ZYCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC39926B9F659913F8BF880E5A9A283 /* NSObject+ZYCExtension.m */; };
+		E19436D0F12689503B8CA9E692ABF9F3 /* NSDictionary+ZYCMutableDeepCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = 626F26695B7136E229E0F8E513DDE57D /* NSDictionary+ZYCMutableDeepCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FF4F12D33ECAA3378A291114FAFEFB /* ZYCUIMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C14BDB0540190DE57CFF4E245FE6CBB /* ZYCUIMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EA7FE6E77324E88066E7D81F3804A /* UINavigationController+ZYCRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE054E46248880321DA1DE071C962FC /* UINavigationController+ZYCRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F955FFFBDBD768FA57810A64499F6FC9 /* UIButton+ZYCEnlargeEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = 67455301E48DC9DD0E6572F1F29F67C9 /* UIButton+ZYCEnlargeEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9C510DEB424E7844226C241833CEC90 /* UIView+ZYCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 915570A2A355987845CD9078325CE8D0 /* UIView+ZYCExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD96FB02C5BB660ED8FA286C168017D /* NSDate+ZYCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 342982F9E320EEFCBF982211B039866F /* NSDate+ZYCExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +65,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0490CA198AD0D4CCED8A9817ED6511D2 /* ZYCBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZYCBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0481EF796BDD0ED90E1AF1B3B0F78D97 /* UIView+ZYCExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYCExtension.m"; sourceTree = "<group>"; };
 		055D04F2F08A83FDD6A2CF0D9BDB2287 /* Pods-ZYCBaseFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCBaseFramework_Tests-Info.plist"; sourceTree = "<group>"; };
+		0C06C78C8D8FCD83B941A0EA82A93C00 /* UINavigationController+ZYCRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZYCRotation.m"; sourceTree = "<group>"; };
 		13631409E096924D9ABF260718333C22 /* Pods-ZYCBaseFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYCBaseFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15746378C0D01BE981816852A5165816 /* ZYCBaseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYCBaseFramework.xcconfig; sourceTree = "<group>"; };
 		17FE9401BB31CE8D127AE21AF4230510 /* Pods-ZYCBaseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCBaseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B0CDE68B05D9074333BED59247547D6 /* ZYCBaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYCBaseFramework-Info.plist"; sourceTree = "<group>"; };
+		1C14BDB0540190DE57CFF4E245FE6CBB /* ZYCUIMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYCUIMacro.h; sourceTree = "<group>"; };
 		1C7309CCEB302E84C45BA72FB36F52A8 /* Pods-ZYCBaseFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCBaseFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1EE55D9812BFACB29F9D6783C6F34EE3 /* UINavigationController+ZYCStatusBarStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZYCStatusBarStyle.m"; sourceTree = "<group>"; };
 		21B0003C92C52FCE2FCE5DA210FDBCF0 /* Pods-ZYCBaseFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYCBaseFramework_Tests-dummy.m"; sourceTree = "<group>"; };
+		2A38630ABF3883DDCDEC5CE1604A2EA8 /* UIImage+ZYCGradientColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZYCGradientColor.h"; sourceTree = "<group>"; };
+		301B41F4A4BD741A519D34499CB1CC81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		342982F9E320EEFCBF982211B039866F /* NSDate+ZYCExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZYCExtension.h"; sourceTree = "<group>"; };
+		372CB7B30C8E9E3228337D19AC57BB2B /* NSDate+ZYCExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZYCExtension.m"; sourceTree = "<group>"; };
 		3B58539B38CBCB2B11524471E2644C67 /* Pods-ZYCBaseFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYCBaseFramework_Example-umbrella.h"; sourceTree = "<group>"; };
-		3C3370EC640881D31909D7B9CC63E95E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4F901E77720C2BC94556FB27EC02764F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6B6F4584B7078309EB9C9C1B1899F2BF /* ZYCBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYCBaseFramework-umbrella.h"; sourceTree = "<group>"; };
+		402148A6B4111C5924546616C290CAA1 /* UIView+ZYCFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYCFoundation.h"; sourceTree = "<group>"; };
+		4A1513A4F4ABEB1DFB1FF1AC41A2BAC9 /* ZYCBaseFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYCBaseFramework-Info.plist"; sourceTree = "<group>"; };
+		626F26695B7136E229E0F8E513DDE57D /* NSDictionary+ZYCMutableDeepCopy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZYCMutableDeepCopy.h"; sourceTree = "<group>"; };
+		67455301E48DC9DD0E6572F1F29F67C9 /* UIButton+ZYCEnlargeEdge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZYCEnlargeEdge.h"; sourceTree = "<group>"; };
+		6DDBFA8F418B306A9526F014BBCA105D /* NSString+ZYCExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZYCExtension.h"; sourceTree = "<group>"; };
+		77760D9FA4B8AFE9120EB370B27689BE /* UITabBarController+ZYCRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZYCRotation.m"; sourceTree = "<group>"; };
+		7D0E0F67034D7B03C4B259B1B348107B /* ZYCBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYCBaseFramework.modulemap; sourceTree = "<group>"; };
 		7EAD817FA319384AD9290DCF4250C103 /* Pods-ZYCBaseFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYCBaseFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7F05A1CC4CEC257D79D78876D1DB1BF4 /* ZYCWeakAndStrongDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYCWeakAndStrongDefine.h; sourceTree = "<group>"; };
 		846C99F893CD605A292491B0054DA494 /* Pods-ZYCBaseFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYCBaseFramework_Example.modulemap"; sourceTree = "<group>"; };
-		889E0FBCE09026B84F9035B0E3BCA57C /* ZYCBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYCBaseFramework-dummy.m"; sourceTree = "<group>"; };
-		911700EAFF7C6DB37164B44EEC567A77 /* NSDate+ZYCExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ZYCExtension.h"; path = "ZYCBaseFramework/Classes/NSDate+ZYCExtension.h"; sourceTree = "<group>"; };
+		915570A2A355987845CD9078325CE8D0 /* UIView+ZYCExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYCExtension.h"; sourceTree = "<group>"; };
 		924A3E77571D3FDFF52D18418EB2FE8D /* Pods-ZYCBaseFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYCBaseFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		941C2ACB0B87C879418B00CF59C73CA4 /* Pods_ZYCBaseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYCBaseFramework_Example.framework; path = "Pods-ZYCBaseFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949A545071D36A46779F5CC2218AC651 /* UINavigationController+ZYCStatusBarStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZYCStatusBarStyle.h"; sourceTree = "<group>"; };
+		978C70119047CA794583D85049380C88 /* UITabBarController+ZYCRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZYCRotation.h"; sourceTree = "<group>"; };
 		99EC3DBA581526EEBDFA60B948ED6D4D /* Pods-ZYCBaseFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCBaseFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9ECEB762B55FD50817A6A4FD40BCD283 /* ZYCBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYCBaseFramework-umbrella.h"; sourceTree = "<group>"; };
+		A0294A1586D8BF92A33CDA1981361583 /* ZYCGlobalMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYCGlobalMacro.h; sourceTree = "<group>"; };
+		A399C3E7C77179EA1FD638A2DF86353E /* UIImage+ZYCColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYCColor.m"; sourceTree = "<group>"; };
+		A5C8E13A83398694C8DFC15CD2AC75C4 /* UIView+ZYCFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYCFoundation.m"; sourceTree = "<group>"; };
+		A6CF1EEF8156AD2D0CBA24C355CA502C /* UIImage+ZYCGradientColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYCGradientColor.m"; sourceTree = "<group>"; };
 		A84F70A070668F5FD9278B327F8A7AC4 /* ZYCBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYCBaseFramework.framework; path = ZYCBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D76FC0C18E43C1A96689FEEC1A833F /* ZYCBaseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYCBaseFramework.xcconfig; sourceTree = "<group>"; };
 		A8E698A4985021D433E1B875DE9A9181 /* Pods-ZYCBaseFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCBaseFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA9575C397EC65C889A74B52E2F30CA2 /* ZYCBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYCBaseFramework.modulemap; sourceTree = "<group>"; };
+		AB4EB557EF59149CE772E8C9879648A2 /* NSString+ZYCHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZYCHeight.h"; sourceTree = "<group>"; };
+		ABC39926B9F659913F8BF880E5A9A283 /* NSObject+ZYCExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZYCExtension.m"; sourceTree = "<group>"; };
+		AEF1E22DD85F9419D554DB3D617DE976 /* UIImage+ZYCColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZYCColor.h"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5B226B3F8B94449E139AD3B3F4B9912 /* NSString+ZYCExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZYCExtension.m"; sourceTree = "<group>"; };
+		BDE5B9EDB5B701D38C987635AA7370D1 /* ZYCBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZYCBaseFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0EDF5E595A9E0DB6792EFCFB29F054E /* ZYCBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYCBaseFramework-dummy.m"; sourceTree = "<group>"; };
+		C210BA0545BD076AB3B17C9709E065FA /* NSObject+ZYCExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZYCExtension.h"; sourceTree = "<group>"; };
+		C39FEADA70544F5AC935790AE9CBDD9A /* ZYCBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYCBaseFramework-prefix.pch"; sourceTree = "<group>"; };
+		C44F801D1B1F2B50D78D602DB3CA13EC /* NSString+ZYCHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZYCHeight.m"; sourceTree = "<group>"; };
 		C91B89483120318FD8300071EA838DFF /* Pods-ZYCBaseFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYCBaseFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CCE054E46248880321DA1DE071C962FC /* UINavigationController+ZYCRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZYCRotation.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D89FC6A02B15018BD684CB1C1BBEB1B9 /* Pods_ZYCBaseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYCBaseFramework_Tests.framework; path = "Pods-ZYCBaseFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9ADE9F78BFFECD861454920D6EF11A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DD5CB370EEEF0D924CFFEBA6DB0D1CC6 /* Pods-ZYCBaseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCBaseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DDC9FD9A5564BD4DC516DD28E2E1480E /* Pods-ZYCBaseFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYCBaseFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		E346BC374D7416B16DCF340D03E404D9 /* UIButton+ZYCEnlargeEdge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZYCEnlargeEdge.m"; sourceTree = "<group>"; };
 		E5649C7520CA1F4F5DBC5F8EA6172F79 /* Pods-ZYCBaseFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYCBaseFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E656D373308C45378B4C4D02FE6AF84E /* NSDate+ZYCExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ZYCExtension.m"; path = "ZYCBaseFramework/Classes/NSDate+ZYCExtension.m"; sourceTree = "<group>"; };
-		ED5903BD3ABD94987F3214D03655CA52 /* ZYCBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYCBaseFramework-prefix.pch"; sourceTree = "<group>"; };
+		EA40D92AA56AE23937322D22FA6EE50A /* NSDictionary+ZYCMutableDeepCopy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZYCMutableDeepCopy.m"; sourceTree = "<group>"; };
 		F754FAADEBA2D4F42BFEE16E9BE43356 /* Pods-ZYCBaseFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCBaseFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE40A604092F1301389B132A863C9680 /* Pods-ZYCBaseFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCBaseFramework_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,16 +155,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		303AB0F9D5D802A210249AF818BC7B27 /* ZYCBaseFramework */ = {
+		0A6B3FD68B45EC4D0F84A3F4254C9D8E /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				911700EAFF7C6DB37164B44EEC567A77 /* NSDate+ZYCExtension.h */,
-				E656D373308C45378B4C4D02FE6AF84E /* NSDate+ZYCExtension.m */,
-				C351A6B5F8C55B131AD19962DBFC6815 /* Pod */,
-				8B7A33C9DCDECE4A38AF8317AEBBCE69 /* Support Files */,
+				915570A2A355987845CD9078325CE8D0 /* UIView+ZYCExtension.h */,
+				0481EF796BDD0ED90E1AF1B3B0F78D97 /* UIView+ZYCExtension.m */,
+				402148A6B4111C5924546616C290CAA1 /* UIView+ZYCFoundation.h */,
+				A5C8E13A83398694C8DFC15CD2AC75C4 /* UIView+ZYCFoundation.m */,
+			);
+			name = UIView;
+			path = ZYCBaseFramework/Classes/UIView;
+			sourceTree = "<group>";
+		};
+		1307DBC96A34CDBDC318FFF033C6003B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E0F67034D7B03C4B259B1B348107B /* ZYCBaseFramework.modulemap */,
+				A8D76FC0C18E43C1A96689FEEC1A833F /* ZYCBaseFramework.xcconfig */,
+				C0EDF5E595A9E0DB6792EFCFB29F054E /* ZYCBaseFramework-dummy.m */,
+				4A1513A4F4ABEB1DFB1FF1AC41A2BAC9 /* ZYCBaseFramework-Info.plist */,
+				C39FEADA70544F5AC935790AE9CBDD9A /* ZYCBaseFramework-prefix.pch */,
+				9ECEB762B55FD50817A6A4FD40BCD283 /* ZYCBaseFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYCBaseFramework";
+			sourceTree = "<group>";
+		};
+		19EABE3187340BA840C02E8B66A93892 /* ZYCBaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				DF4FE44D44B1CC4B099BB031A3C312F7 /* NSDate */,
+				C63C418BCFBFFC883702E19ECDE8E081 /* NSDictionary */,
+				83C5FFB4F5C6A826A8A92CB1E9FB5C41 /* NSObject */,
+				D6A1CCB359896D081D864F9EAC810AA1 /* NSString */,
+				9528C6F355AA4D1986C5637096EC9C97 /* Pod */,
+				1307DBC96A34CDBDC318FFF033C6003B /* Support Files */,
+				308D3E7998FAB89AA716CAFA8E92C6E1 /* UIButton */,
+				FFA6B5E376278C681388998310B9F90D /* UIImage */,
+				3CD550F96C4761CB3CDDDE509E27747F /* UINavigationController */,
+				8F3FA290BA4A327AD51DE5B1732596A9 /* UITabBarController */,
+				0A6B3FD68B45EC4D0F84A3F4254C9D8E /* UIView */,
+				CE2500F981931FB1C2FB1B31E64DF142 /* ZYCMacro */,
 			);
 			name = ZYCBaseFramework;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		308D3E7998FAB89AA716CAFA8E92C6E1 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				67455301E48DC9DD0E6572F1F29F67C9 /* UIButton+ZYCEnlargeEdge.h */,
+				E346BC374D7416B16DCF340D03E404D9 /* UIButton+ZYCEnlargeEdge.m */,
+			);
+			name = UIButton;
+			path = ZYCBaseFramework/Classes/UIButton;
+			sourceTree = "<group>";
+		};
+		3CD550F96C4761CB3CDDDE509E27747F /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CCE054E46248880321DA1DE071C962FC /* UINavigationController+ZYCRotation.h */,
+				0C06C78C8D8FCD83B941A0EA82A93C00 /* UINavigationController+ZYCRotation.m */,
+				949A545071D36A46779F5CC2218AC651 /* UINavigationController+ZYCStatusBarStyle.h */,
+				1EE55D9812BFACB29F9D6783C6F34EE3 /* UINavigationController+ZYCStatusBarStyle.m */,
+			);
+			name = UINavigationController;
+			path = ZYCBaseFramework/Classes/UINavigationController;
+			sourceTree = "<group>";
+		};
+		40937C16DF74643167F47D273B394883 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19EABE3187340BA840C02E8B66A93892 /* ZYCBaseFramework */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -121,23 +239,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		59BE436B6508A5D65776656B0A32809D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				303AB0F9D5D802A210249AF818BC7B27 /* ZYCBaseFramework */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				59BE436B6508A5D65776656B0A32809D /* Development Pods */,
+				40937C16DF74643167F47D273B394883 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				AB2B102107A0B5D7AB801365AC921030 /* Products */,
 				84F9C7E1BD28A04E9D65E33FB978719D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		83C5FFB4F5C6A826A8A92CB1E9FB5C41 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				C210BA0545BD076AB3B17C9709E065FA /* NSObject+ZYCExtension.h */,
+				ABC39926B9F659913F8BF880E5A9A283 /* NSObject+ZYCExtension.m */,
+			);
+			name = NSObject;
+			path = ZYCBaseFramework/Classes/NSObject;
 			sourceTree = "<group>";
 		};
 		84F9C7E1BD28A04E9D65E33FB978719D /* Targets Support Files */ = {
@@ -149,18 +269,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8B7A33C9DCDECE4A38AF8317AEBBCE69 /* Support Files */ = {
+		8F3FA290BA4A327AD51DE5B1732596A9 /* UITabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				AA9575C397EC65C889A74B52E2F30CA2 /* ZYCBaseFramework.modulemap */,
-				15746378C0D01BE981816852A5165816 /* ZYCBaseFramework.xcconfig */,
-				889E0FBCE09026B84F9035B0E3BCA57C /* ZYCBaseFramework-dummy.m */,
-				1B0CDE68B05D9074333BED59247547D6 /* ZYCBaseFramework-Info.plist */,
-				ED5903BD3ABD94987F3214D03655CA52 /* ZYCBaseFramework-prefix.pch */,
-				6B6F4584B7078309EB9C9C1B1899F2BF /* ZYCBaseFramework-umbrella.h */,
+				978C70119047CA794583D85049380C88 /* UITabBarController+ZYCRotation.h */,
+				77760D9FA4B8AFE9120EB370B27689BE /* UITabBarController+ZYCRotation.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZYCBaseFramework";
+			name = UITabBarController;
+			path = ZYCBaseFramework/Classes/UITabBarController;
+			sourceTree = "<group>";
+		};
+		9528C6F355AA4D1986C5637096EC9C97 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				301B41F4A4BD741A519D34499CB1CC81 /* LICENSE */,
+				DC9ADE9F78BFFECD861454920D6EF11A /* README.md */,
+				BDE5B9EDB5B701D38C987635AA7370D1 /* ZYCBaseFramework.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		AB2B102107A0B5D7AB801365AC921030 /* Products */ = {
@@ -197,14 +323,47 @@
 			path = "Target Support Files/Pods-ZYCBaseFramework_Tests";
 			sourceTree = "<group>";
 		};
-		C351A6B5F8C55B131AD19962DBFC6815 /* Pod */ = {
+		C63C418BCFBFFC883702E19ECDE8E081 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				4F901E77720C2BC94556FB27EC02764F /* LICENSE */,
-				3C3370EC640881D31909D7B9CC63E95E /* README.md */,
-				0490CA198AD0D4CCED8A9817ED6511D2 /* ZYCBaseFramework.podspec */,
+				626F26695B7136E229E0F8E513DDE57D /* NSDictionary+ZYCMutableDeepCopy.h */,
+				EA40D92AA56AE23937322D22FA6EE50A /* NSDictionary+ZYCMutableDeepCopy.m */,
 			);
-			name = Pod;
+			name = NSDictionary;
+			path = ZYCBaseFramework/Classes/NSDictionary;
+			sourceTree = "<group>";
+		};
+		CE2500F981931FB1C2FB1B31E64DF142 /* ZYCMacro */ = {
+			isa = PBXGroup;
+			children = (
+				A0294A1586D8BF92A33CDA1981361583 /* ZYCGlobalMacro.h */,
+				1C14BDB0540190DE57CFF4E245FE6CBB /* ZYCUIMacro.h */,
+				7F05A1CC4CEC257D79D78876D1DB1BF4 /* ZYCWeakAndStrongDefine.h */,
+			);
+			name = ZYCMacro;
+			path = ZYCBaseFramework/Classes/ZYCMacro;
+			sourceTree = "<group>";
+		};
+		D6A1CCB359896D081D864F9EAC810AA1 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				6DDBFA8F418B306A9526F014BBCA105D /* NSString+ZYCExtension.h */,
+				B5B226B3F8B94449E139AD3B3F4B9912 /* NSString+ZYCExtension.m */,
+				AB4EB557EF59149CE772E8C9879648A2 /* NSString+ZYCHeight.h */,
+				C44F801D1B1F2B50D78D602DB3CA13EC /* NSString+ZYCHeight.m */,
+			);
+			name = NSString;
+			path = ZYCBaseFramework/Classes/NSString;
+			sourceTree = "<group>";
+		};
+		DF4FE44D44B1CC4B099BB031A3C312F7 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				342982F9E320EEFCBF982211B039866F /* NSDate+ZYCExtension.h */,
+				372CB7B30C8E9E3228337D19AC57BB2B /* NSDate+ZYCExtension.m */,
+			);
+			name = NSDate;
+			path = ZYCBaseFramework/Classes/NSDate;
 			sourceTree = "<group>";
 		};
 		E1259D7575E54F0E2FEAEADACC80EBC3 /* Pods-ZYCBaseFramework_Example */ = {
@@ -224,6 +383,18 @@
 			path = "Target Support Files/Pods-ZYCBaseFramework_Example";
 			sourceTree = "<group>";
 		};
+		FFA6B5E376278C681388998310B9F90D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1E22DD85F9419D554DB3D617DE976 /* UIImage+ZYCColor.h */,
+				A399C3E7C77179EA1FD638A2DF86353E /* UIImage+ZYCColor.m */,
+				2A38630ABF3883DDCDEC5CE1604A2EA8 /* UIImage+ZYCGradientColor.h */,
+				A6CF1EEF8156AD2D0CBA24C355CA502C /* UIImage+ZYCGradientColor.m */,
+			);
+			name = UIImage;
+			path = ZYCBaseFramework/Classes/UIImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -235,20 +406,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		227BC4043A8638C495F4FFEAAE6EBBB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD96FB02C5BB660ED8FA286C168017D /* NSDate+ZYCExtension.h in Headers */,
+				E19436D0F12689503B8CA9E692ABF9F3 /* NSDictionary+ZYCMutableDeepCopy.h in Headers */,
+				85E649C972EED1F1EB8FE080DD715FDF /* NSObject+ZYCExtension.h in Headers */,
+				749FE7A69FF7988E73A526EBD2506BE6 /* NSString+ZYCExtension.h in Headers */,
+				214A7E61515E3629310634DFF8C3544E /* NSString+ZYCHeight.h in Headers */,
+				F955FFFBDBD768FA57810A64499F6FC9 /* UIButton+ZYCEnlargeEdge.h in Headers */,
+				7D1EB88037C2B74E33D3525858364C2F /* UIImage+ZYCColor.h in Headers */,
+				AE6F54E5DC01C6212A223C15841B189A /* UIImage+ZYCGradientColor.h in Headers */,
+				EF7EA7FE6E77324E88066E7D81F3804A /* UINavigationController+ZYCRotation.h in Headers */,
+				0E1FC759FD42C4D2A96C7D8C8C2F8FA5 /* UINavigationController+ZYCStatusBarStyle.h in Headers */,
+				3BAC3D2806F4DF6775A8F1C667B31C5F /* UITabBarController+ZYCRotation.h in Headers */,
+				F9C510DEB424E7844226C241833CEC90 /* UIView+ZYCExtension.h in Headers */,
+				9C8D5F2A9A3337C25912653E947FD4A4 /* UIView+ZYCFoundation.h in Headers */,
+				D06A2FFDBD48C175F8CD5E45AFCD776F /* ZYCBaseFramework-umbrella.h in Headers */,
+				B4430A628AF8CB92082880CB5D732728 /* ZYCGlobalMacro.h in Headers */,
+				E1FF4F12D33ECAA3378A291114FAFEFB /* ZYCUIMacro.h in Headers */,
+				BBEA5CA171F745EAB4B67F53701E9E5D /* ZYCWeakAndStrongDefine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54D52A4AE435823F8D8523637920CDA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AC3A37B3AFF88859156E2FA8EB8EEA04 /* Pods-ZYCBaseFramework_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		835BEDBFA429F5F79066BF40C31CD336 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54F710080C67945FC1E0821A7A603E21 /* NSDate+ZYCExtension.h in Headers */,
-				497F3F0619894E7CEFEE3DDD55886106 /* ZYCBaseFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +464,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7CF893369376AF86238232A4ABEEC93 /* Build configuration list for PBXNativeTarget "ZYCBaseFramework" */;
 			buildPhases = (
-				835BEDBFA429F5F79066BF40C31CD336 /* Headers */,
-				0EC6A3B8E4CCA819017C09BB3411BB1D /* Sources */,
+				227BC4043A8638C495F4FFEAAE6EBBB2 /* Headers */,
+				0CE84523828882586BABD3901CD43916 /* Sources */,
 				B2D40FF23E5B5C590264906465C7169E /* Frameworks */,
 				95CD0835511157CA75B33314924B9AE7 /* Resources */,
 			);
@@ -364,12 +550,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EC6A3B8E4CCA819017C09BB3411BB1D /* Sources */ = {
+		0CE84523828882586BABD3901CD43916 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF4EDF616D69AE119810712D7538E0F /* NSDate+ZYCExtension.m in Sources */,
-				FDF9202A9C662BF1147D3EB08AAEEBCD /* ZYCBaseFramework-dummy.m in Sources */,
+				822D2524D4E789B5A19BEADF97C809E8 /* NSDate+ZYCExtension.m in Sources */,
+				75176C53DD862A6FC24C19D92E76782C /* NSDictionary+ZYCMutableDeepCopy.m in Sources */,
+				DEB5BCC0A93F28BFCF7487EA751AAD0C /* NSObject+ZYCExtension.m in Sources */,
+				DBAB9F57AA404BD70007306634AD07BF /* NSString+ZYCExtension.m in Sources */,
+				6883EF2DDA4E54211BB0FD7E7A3E75A1 /* NSString+ZYCHeight.m in Sources */,
+				14FB2D3758A6B079F0D04CF98F146512 /* UIButton+ZYCEnlargeEdge.m in Sources */,
+				0EB47C6CDC2CCBC0E474FD7CE647035E /* UIImage+ZYCColor.m in Sources */,
+				88FFBD1FB5666770339370A2A386F36F /* UIImage+ZYCGradientColor.m in Sources */,
+				83F59D2EE022DCC8E77BBE68E9C06313 /* UINavigationController+ZYCRotation.m in Sources */,
+				B15C0A2E1DCCA1446CFABF69CEB32C17 /* UINavigationController+ZYCStatusBarStyle.m in Sources */,
+				384E7C178B0DED78CF459CCCD51B10FA /* UITabBarController+ZYCRotation.m in Sources */,
+				37A17F03D8F23AD6DFF3F4A48FFAFD21 /* UIView+ZYCExtension.m in Sources */,
+				529039895E356D6DE0953B88E795F178 /* UIView+ZYCFoundation.m in Sources */,
+				34DBFE8D4A5F68A5AE29A39B28A09049 /* ZYCBaseFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +674,7 @@
 		};
 		4D4032362B7435E4D7A2C0C239724D3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15746378C0D01BE981816852A5165816 /* ZYCBaseFramework.xcconfig */;
+			baseConfigurationReference = A8D76FC0C18E43C1A96689FEEC1A833F /* ZYCBaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -697,7 +895,7 @@
 		};
 		FDCDAE0FF27CDB4F5DF240FC00734213 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15746378C0D01BE981816852A5165816 /* ZYCBaseFramework.xcconfig */;
+			baseConfigurationReference = A8D76FC0C18E43C1A96689FEEC1A833F /* ZYCBaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
