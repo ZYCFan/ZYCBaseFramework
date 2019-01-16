@@ -31,43 +31,43 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.subspec 'NSDate' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/NSDate/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/NSDate/**/*'
   end
 
   s.subspec 'NSDictionary' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/NSDictionary/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/NSDictionary/**/*'
   end
 
   s.subspec 'NSObject' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/NSObject/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/NSObject/**/*'
   end
 
   s.subspec 'NSString' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/NSString/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/NSString/**/*'
   end
 
   s.subspec 'UIButton' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/UIButton/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/UIButton/**/*'
   end
 
   s.subspec 'UIImage' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/UIImage/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/UIImage/**/*'
   end
 
   s.subspec 'UINavigationController' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/UINavigationController/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/UINavigationController/**/*'
   end
 
   s.subspec 'UITabBarController' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/UITabBarController/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/UITabBarController/**/*'
   end
 
   s.subspec 'UIView' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/UIView/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/UIView/**/*'
   end
 
   s.subspec 'ZYCMacro' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Core/ZYCMacro/**/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/ZYCMacro/**/*'
   end
 
   # s.resource_bundles = {
