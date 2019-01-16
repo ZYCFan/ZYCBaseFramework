@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYCBaseFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A Simple Architecture of Objective-c Project'
 
 # This description is used to generate tags and improve search results.
@@ -31,44 +31,44 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.subspec 'NSDate' do |ss|
-    ss.source_files = 'ZYCBaseFramework/NSDate/**/*'
+    ss.source_files = 'ZYCBaseFramework/Core/NSDate/**/*'
   end
 
-#  s.subspec 'NSDictionary' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/NSDictionary/*.{h,m}'
-#  end
-#
-#  s.subspec 'NSObject' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/NSObject/*.{h,m}'
-#  end
-#
-#  s.subspec 'NSString' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/NSString/*.{h,m}'
-#  end
-#
-#  s.subspec 'UIButton' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/UIButton/*.{h,m}'
-#  end
-#
-#  s.subspec 'UIImage' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/UIImage/*.{h,m}'
-#  end
-#
-#  s.subspec 'UINavigationController' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/UINavigationController/*.{h,m}'
-#  end
-#
-#  s.subspec 'UITabBarController' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/UITabBarController/*.{h,m}'
-#  end
-#
-#  s.subspec 'UIView' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/UIView/*.{h,m}'
-#  end
-#
-#  s.subspec 'ZYCMacro' do |ss|
-#    ss.source_files = 'ZYCBaseFramework/ZYCMacro/**/*.{h,m}'
-#  end
+  s.subspec 'NSDictionary' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/NSDictionary/*.{h,m}'
+  end
+
+  s.subspec 'NSObject' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/NSObject/*.{h,m}'
+  end
+
+  s.subspec 'NSString' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/NSString/*.{h,m}'
+  end
+
+  s.subspec 'UIButton' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/UIButton/*.{h,m}'
+  end
+
+  s.subspec 'UIImage' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/UIImage/*.{h,m}'
+  end
+
+  s.subspec 'UINavigationController' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/UINavigationController/*.{h,m}'
+  end
+
+  s.subspec 'UITabBarController' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/UITabBarController/*.{h,m}'
+  end
+
+  s.subspec 'UIView' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/UIView/*.{h,m}'
+  end
+
+  s.subspec 'ZYCMacro' do |ss|
+    ss.source_files = 'ZYCBaseFramework/Core/ZYCMacro/**/*.{h,m}'
+  end
 
   # s.resource_bundles = {
   #   'ZYCBaseFramework' => ['ZYCBaseFramework/Assets/*.png']
