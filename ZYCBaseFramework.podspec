@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.subspec 'NSDate' do |ss|
-    ss.source_files = 'ZYCBaseFramework/Classes/NSDate/*.{h,m}'
+    ss.source_files = 'ZYCBaseFramework/NSDate/*.{h,m}'
   end
 
   s.subspec 'NSDictionary' do |ss|
