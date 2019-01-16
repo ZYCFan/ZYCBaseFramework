@@ -1,0 +1,16 @@
+PODS:
+  - ZYCBaseFramework (0.1.0)
+
+DEPENDENCIES:
+  - ZYCBaseFramework (from `../`)
+
+EXTERNAL SOURCES:
+  ZYCBaseFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYCBaseFramework: efed256f312c4b3a4cf406237f3aeeb2108eab8e
+
+PODFILE CHECKSUM: 0488c44f2dc83904e2f9e8835ca4640c445b98d9
+
+COCOAPODS: 1.6.0.beta.2

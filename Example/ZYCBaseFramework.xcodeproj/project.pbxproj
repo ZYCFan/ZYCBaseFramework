@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0016B547BEF965F38A4705BE /* Pods_ZYCBaseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYCBaseFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DF294CDF6DB527450C9DB3 /* Pods_ZYCBaseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYCBaseFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51B8AFE5D0A3C9A954989812 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		51B8AFE5D0A3C9A954989812 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		52E238B3872755FD0A7AD3EB /* Pods-ZYCBaseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCBaseFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZYCBaseFramework_Tests/Pods-ZYCBaseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYCBaseFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCBaseFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82E619B468AD4F272323A2A3 /* Pods-ZYCBaseFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCBaseFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZYCBaseFramework_Tests/Pods-ZYCBaseFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9D0E384AEBE28AE2AFD04D8 /* ZYCBaseFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYCBaseFramework.podspec; path = ../ZYCBaseFramework.podspec; sourceTree = "<group>"; };
+		A9D0E384AEBE28AE2AFD04D8 /* ZYCBaseFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYCBaseFramework.podspec; path = ../ZYCBaseFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5E41833EEFCD342A237A52F /* Pods-ZYCBaseFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCBaseFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZYCBaseFramework_Example/Pods-ZYCBaseFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB943ED36F85D7E04E7F0D54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB943ED36F85D7E04E7F0D54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				82E619B468AD4F272323A2A3 /* Pods-ZYCBaseFramework_Tests.debug.xcconfig */,
 				52E238B3872755FD0A7AD3EB /* Pods-ZYCBaseFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
